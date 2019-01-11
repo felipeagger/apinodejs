@@ -1,0 +1,14 @@
+{
+  "name": "apinodejs",
+  "version": "1.0.0",
+  "description": "Exemplo de API em NodeJS e Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FelipeAgger",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

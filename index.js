@@ -1,10 +1,11 @@
 var express = require('express');
 var app = express();
+var porta = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hello World - by NodeJS!');
 });
 
-app.listen(3000, function () {
-  console.log('Exemplo app nodejs executando na porta 3000!');
+app.listen(porta, function () {
+  console.log('Exemplo API nodejs executando na porta '+porta+'!');
 });
